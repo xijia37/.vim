@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/Administrator/www/CodeIgniter_2.1.0'
+let g:netrw_dirhist_2='/home/Administrator/www/CodeIgniter_2.1.0/application'
+let g:netrw_dirhist_3='/home/Administrator/www/CodeIgniter_2.1.0/application/controllers'
+let g:netrw_dirhist_4='/home/Administrator/www/codeIgniter_2.1.0'
+let g:netrw_dirhist_5='/home/Administrator/www/codeIgniter_2.1.0/application'
+let g:netrw_dirhist_6='/home/Administrator/www/codeIgniter_2.1.0/application/controllers'
+let g:netrw_dirhist_7='/home/Administrator/www/codeIgniter_2.1.0'
+let g:netrw_dirhist_8='/home/Administrator/www/codeIgniter_2.1.0/application'
+let g:netrw_dirhist_9='/home/Administrator/www/codeIgniter_2.1.0/application/controllers'
