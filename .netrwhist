@@ -1,4 +1,5 @@
 let g:netrw_dirhistmax  =10
+<<<<<<< HEAD
 let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/Administrator'
 let g:netrw_dirhist_2='/home/Administrator/www'
@@ -6,3 +7,7 @@ let g:netrw_dirhist_3='/home/Administrator/www/codeIgniter_2.1.0'
 let g:netrw_dirhist_4='/home/Administrator'
 let g:netrw_dirhist_5='/home/Administrator/www/codeIgniter_2.1.0/application/views'
 let g:netrw_dirhist_6='/home/Administrator/www/codeIgniter_2.1.0/application/views/supplier'
+=======
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/xijia37/.vim/.git/modules/bundle/fugitive/hooks'
+>>>>>>> e5a66a502bacf4e1d7addc6c971397f76e75d943
