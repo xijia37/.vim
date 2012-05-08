@@ -97,3 +97,9 @@ endif
 " Pathogen load
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
+" PHP documenter script bound to Control-P
+source ~/.vim/plugin/php-doc.vim 
+autocmd FileType php inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i
+autocmd FileType php nnoremap <C-P> :call PhpDocSingle()<CR>
+autocmd FileType php vnoremap <C-P> :call PhpDocRange()<CR> 
