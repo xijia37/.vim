@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =1
+<<<<<<< HEAD
 let g:netrw_dirhist_1='/home/xijia37/www/controllers'
+=======
+let g:netrw_dirhist_1='/home/Administrator/www'
+>>>>>>> 57b31cd49a00c1d4be5fd3b054377427bafeb366
