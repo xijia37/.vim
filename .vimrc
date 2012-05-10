@@ -95,8 +95,8 @@ if !exists(":DiffOrig")
 		  \ | wincmd p | diffthis
 endif
 " Pathogen load
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags()
 
 " PHP documenter script bound to Control-P
 source ~/.vim/plugin/php-doc.vim 
