@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/cygdrive/e/www/codeIgniter_2.1.0/application/controllers'
 let g:netrw_dirhist_2='/home/xijia37/.vim/bundle/snipMate/snippets'
+let g:netrw_dirhist_3='/home/xijia37/www'
+let g:netrw_dirhist_4='/cygdrive/e/xampp/apache/conf/extra'

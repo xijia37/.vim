@@ -14,6 +14,9 @@ if v:progname =~? "evim"
   finish
 endif
 
+"launch pathogen
+call pathogen#infect()
+
 " Use Vim settings, rather than Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
 set nocompatible
@@ -117,3 +120,14 @@ autocmd FileType php vnoremap <C-P> :call PhpDocRange()<CR>
     " Remove trailing whitespaces and ^M chars
     " autocmd FileType c,cpp,java,php,js,python,twig,xml,yml autocmd BufWritePre <buffer> :call setline(1,map(getline(1,"$"),'substitute(v:val,"\\s\\+$","","")'))
 " }
+
+
+"php folding mapping
+     map <leader>pff <Esc>:EnableFastPHPFolds<Cr> 
+     map <leader>pfe <Esc>:EnablePHPFolds<Cr> 
+     map <leader>pfd <Esc>:DisablePHPFolds<Cr> 
+
+set nu
+
+"disable php folding auto
+let g:DisableAutoPHPFolding  = 1
